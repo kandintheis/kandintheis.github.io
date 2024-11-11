@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Courier;
+    text-decoration: none;
+    font-size: 2vw;
+  }
+
+  body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5vw;
+    text-decoration: none;
+    border-bottom: .3vw solid;
+    background-image: none;
+    /* background-color: black;
+    color: white; */
+    background-color:white;
+    color:black;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    background-image: none;
+    /* background-color: black;
+    color: white; */
+    background-color:white;
+    color:black;
+  }
+  
+  nav a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5vw;
+    text-decoration: none;
+    background-image: none;
+    /* background-color: black;
+    color: white; */
+    background-color:white;
+    color:black;
+  }
+
+  div.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3vw;
+    border: .3vw solid;
+    /* margin: auto; */
+    /* width: 50%; */
+    padding: 1vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 5vw;
+    font-family: Optima;
+    flex-wrap: wrap;
+    background-image: none;
+    background-color:white;
+    color:black;
+    border-style: dashed;
+  }
+
+  div.middle.p {
+    font-family: Optima;
+    font-size: 10vw;
+  }
+
+  /* a.email {
+    font-size: 1vw;
+    color: red;
+    background-image: none;
+    padding: 3%;
+  }
+
+  p.license {
+    position:fixed;
+    background-color: white;
+    font-size: 1vw;
+    font-family: Optima;
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 1%;
+    color: red;
+  }
+
+  a.license_link {
+    position:fixed;
+    font-size: 1vw;
+    font-family: Optima;
+    color: red;
+  } */
+
+  @media (max-aspect-ratio: 10/8) {
+    * {
+      font-size: 5vw;
+    }
+    div.middle{
+      position:absolute;
+      font-size: 7vw;
+      border: .4vw solid;
+    }
+    a.email {
+      font-size: 3.5vw;
+      padding: 3%;
+    }
+    header {
+      border-bottom: .4vw solid;
+    }
+  }
