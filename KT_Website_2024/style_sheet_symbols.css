@@ -22,11 +22,7 @@
     padding: .5vw;
     text-decoration: none;
     border-bottom: .3vw double;
-    /* border-right: .3vw solid;
-    border-left: .3vw solid; */
     background-image: none;
-    /* background-color: black;
-    color: white; */
     background-color:black;
     opacity: .65;
     color:white;
@@ -38,10 +34,7 @@
     align-items: center;
     text-decoration: none;
     background-image: none;
-    /* background-color: black;
-    color: white; */
     background-color:rgb(0, 0, 0);
-    /* opacity: .75; */
     color:white;
     
   }
@@ -53,11 +46,7 @@
     padding: .5vw;
     text-decoration: none;
     background-image: none;
-    /* background-color: black;
-    color: white; */
-
     background-color:black;
-    /* opacity: .75; */
     color:white;
     
   }
