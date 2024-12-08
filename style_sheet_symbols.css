@@ -112,6 +112,7 @@
     }
     p.words{
       font-size: 3.5vw;
+      opacity: .80;
     }
     a.wrds{
       font-size: 3.5vw !important;
