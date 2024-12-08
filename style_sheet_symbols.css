@@ -79,7 +79,7 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    font-size: 1.2vw;
+    font-size: 1.4vw;
     font-family: Optima;
     background-image: none;
     background-color:black;
@@ -88,7 +88,12 @@
     padding: 2vw;
   }
 
-  @media (max-aspect-ratio: 10/8) {
+  a.wrds{
+    font-size: 1.4vw !important; 
+    color: #ffffff;
+  }
+
+  @media (max-aspect-ratio: 12/8) {
     * {
       font-size: 5vw;
     }
@@ -107,5 +112,16 @@
     }
     p.words{
       font-size: 3.5vw;
+    }
+    a.wrds{
+      font-size: 3.5vw !important;
+    }
+    body {
+      width: 100vw;
+      height: 100vh;
+      background-image: url("Mobile_Background.jpg"); 
+      background-size: cover;
+      overflow-y: visible;
+      overflow-x: visible;
     }
   }

@@ -64,7 +64,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    font-size: 1.2vw;
+    font-size: 1.4vw;
     font-family: Optima;
     flex-wrap: wrap;
     background-image: none;
@@ -74,7 +74,7 @@
   }
 
   a.email {
-    font-size: 1vw;
+    font-size: 1.4vw;
     color: white;
     background-image: none;
     padding: 3%;
