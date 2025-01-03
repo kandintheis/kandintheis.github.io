@@ -97,6 +97,9 @@
 
   @media (max-aspect-ratio: 10/8) {
     * {
+      font-size: 5vw;
+    }
+    header {
       font-size: 7vw;
     }
     body {
